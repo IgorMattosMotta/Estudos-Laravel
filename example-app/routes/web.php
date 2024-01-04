@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+Route::get('/produtos', function () {
+    $arr = [1,2,3,4,5];
+    $produtos = ['Camisa', 'Short', 'Blusa'];
+
+    return view('produtos', [
+        'arr' => $arr,
+        'produtos' => $produtos
+    ]);
+});
+
 Route::get('/', function () {
     $arr = [1,2,3,4,5];
     $nomes = ['Igor', 'Mattos', 'Motta'];
