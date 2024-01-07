@@ -23,6 +23,8 @@ Route::get('/produtos', function () {
 
 Route::get('/', [EventController::class, 'index']);
 
+Route::get('/events/create', [EventController::class, 'create']);
+
 
 Route::get('/produto_teste/{id?}', function($id = null){
     return view('produto_teste', ['id' => $id]);
