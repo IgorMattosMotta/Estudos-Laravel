@@ -6,4 +6,4 @@
 
     <p>Exibindo produto id: {{$id}}</p>
 
-@endsection
+@endsection('content')

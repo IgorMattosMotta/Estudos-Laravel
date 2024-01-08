@@ -2,8 +2,8 @@
 
 @section('title', 'Criar Evento')
 
-@section('Events')
+@section('content')
 
     <h1>Crie um evento!</h1>
 
-@endsection
+@endsection('content')
