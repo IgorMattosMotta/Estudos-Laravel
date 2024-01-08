@@ -4,6 +4,10 @@
 
 @section('content')
 
-    <p>Produtos!</p>
+    @foreach($produtos as $produto)
+
+        <p>{{$produto}}</p>
+
+    @endforeach
 
 @endsection('content')

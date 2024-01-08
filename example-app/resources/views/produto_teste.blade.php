@@ -3,7 +3,10 @@
 @section('title', 'produto')
 
 @section('content')
-
-    <p>Exibindo produto id: {{$id}}</p>
+    @if($id == null)
+        <p>Nenhum produto selecionado!</p>
+    @else
+        <p>Exibindo produto id: {{$id}}</p>
+    @endif
 
 @endsection('content')

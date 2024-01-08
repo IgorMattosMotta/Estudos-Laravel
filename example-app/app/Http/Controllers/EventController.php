@@ -21,4 +21,19 @@ class EventController extends Controller
 
         return view('events.create');
     }
+
+    public function createProdutoId($id = null){
+        return view('produto_teste', ['id' => $id]);
+    }
+
+    public function createProduto(){
+
+        $arr = [1,2,3,4,5];
+        $produtos = ['Camisa', 'Short', 'Blusa'];
+
+        return view('produtos', [
+            'arr' => $arr,
+            'produtos' => $produtos
+        ]);
+    }
 }
