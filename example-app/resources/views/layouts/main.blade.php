@@ -19,13 +19,13 @@
     </head>
     <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collpase" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div>
                 <a href="/" class="navbar-brand">
                     <img src="/img/logo.jpg" alt="Logo">
                 </a>
             </div>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" >
                 <li class="nav-item">
                     <a href="/" class="nav-link">Eventos</a>
                 </li>
