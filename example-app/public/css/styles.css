@@ -24,6 +24,7 @@ header{
 }
 
 .btn-primary{
+    margin-top: 5px;
     background-color: #F2A340;
     border: 2px solid #C28008;
 }
@@ -120,6 +121,20 @@ header{
 .card-participants{
     font-size: 14px;
     color: #757575;
+}
+
+/* Event create page */
+
+#event-create-container{
+    padding: 30px;
+}
+
+#event-create-container label{
+    font-weight: bold;
+}
+
+#event-create-container input, #event-create-container select, #event-create-container textarea{
+    font-size: 12px;
 }
 
 /* Footer */
