@@ -4,14 +4,11 @@
 
 @section('content')
 
-    @for($i= 0; $i < count($arr); $i++)
-        <p>{{$arr[$i]}}</p>
-    @endfor
+    @foreach($events as $event)
 
-    @foreach($nomes as $nome)
-        <p>{{ $nome }}</p>
+        <h1>{{$event->title}}</h1>
+        <p>{{$event->description}}</p>
+
     @endforeach
-
-    <img src="img/download.jpg" alt="Sala de reunião">
 
 @endsection
