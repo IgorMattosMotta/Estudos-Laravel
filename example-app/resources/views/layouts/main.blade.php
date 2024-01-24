@@ -48,10 +48,20 @@
         </nav>
     </header>
         
-    @yield('content')
-    
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                @if(session('msg'))
+
+                    <p class="msg" id="msg">{{ session('msg') }}</p>
+                    
+                @endif
+                @yield('content')
+            </div>
+        </div>
+    </main>
     <footer>
-        <p>Igor Mattos &copy; 2020</p>
+        <p>Igor Mattos &copy; 2024</p>
     </footer>
     </body>
 </html>
