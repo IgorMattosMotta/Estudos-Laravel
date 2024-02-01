@@ -193,6 +193,16 @@ header{
     font-size: 12px;
 }
 
+/* Dashboar */
+
+.dashboard-title-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.dashboar-events-container th{
+    width: 25%;
+}
 /* Footer */
 
 footer{
