@@ -203,6 +203,10 @@ header{
 .dashboar-events-container th{
     width: 25%;
 }
+
+.dashboar-events-container form{
+    display: inline-block;
+}
 /* Footer */
 
 footer{
