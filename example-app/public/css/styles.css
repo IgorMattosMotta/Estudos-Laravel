@@ -45,6 +45,14 @@ header{
     transition: opacity .5s ease;
 }
 
+.already-joine-msg{
+    margin: 15px 0px;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    padding: 10px;
+    width: 275px;
+}
 
 /* navbar */
 
